@@ -1,0 +1,69 @@
+#chat_input {
+    text-align: center;
+}
+#chat_input button {
+    height: 30px;
+    margin-left: 5px
+}
+#nm_name {
+    height: 25px;
+}
+#nm_text{
+    width: 50%;
+    height: 25px;
+}
+
+body {
+    background-image: url("./../imgs/background2.jpg");
+}
+#container {
+    padding: 5% 10%;
+}
+#chatroom {
+    overflow-y: scroll;
+    height: 300px;
+    padding: 1%;
+    background-color: #FAFAFA;
+    color: #282C34;
+    align-self: center;
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+}
+#loggedin {
+    height: 300px;
+    padding: 1%;
+    background-color: #FAFAFA;
+    color: #282C34;
+    align-self: center;
+    width: 15%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+#header {
+    font-family: Sofia;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+}
+.name_attr {
+    font-weight: bold;
+}
+#chatWrap {
+    display: none;
+}
+#nickWrap {
+    margin-top: 30%;
+    float: left;
+}
+/*#jackchat {
+    text-align: center;
+    background-color: #CFD2D2
+}
+#jackchat img {
+    position: relative;
+    clip: rect(0,0,30px,0);
+}*/

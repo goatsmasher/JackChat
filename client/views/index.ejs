@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sockets?</title>
+	<link rel="stylesheet" type="text/css" href="./views/style.css">
+	<link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<script type="text/javascript" src="jquery/dist/jquery.js"></script>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="./moment/moment.js"></script>
+	<script src="./src/main.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<h1 id="header">Jack Chat</h1>
+		<!--<div id="jackchat">-->
+		<!--<img src="./../imgs/jack.gif" alt="jackchat">-->
+		<!--</div>-->
+
+		<div id="chatWrap">
+			<div id="chatroom" style="border: 1px solid black">
+				<p><span class="name_attr">Jack</span>: 9 o'clock! It's algorithm time! - at 9:00:00 am</p>
+			</div>
+			<div id="loggedin">
+				<h4 style="text-decoration: underline">Users</h4>
+				<div id="current_users">
+
+				</div>
+			</div>
+			<div id="chat_input">
+				<p>
+					<!--Name: <input type="text" name="name" id="nm_name"> -->
+					Message: <input type="text" name="text" id="nm_text">
+					<button type="" disabled>Press Enter</button></p>
+			</div>
+		</div>
+
+		<div id="nickWrap">
+			<h3>Enter a username:</h3>
+			<p id="nickError"></p>
+			<form id="setNick">
+				<input type="text" id="nickname">
+				<input type="submit" name="" value="Submit">
+			</form>
+		</div>
+
+
+	</div>
+</body>
+
+</html>
